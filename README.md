@@ -1,6 +1,6 @@
 # Phase-4-project
-1. Business Problem
- Heading: Identifying the Right Product Line
+## 1. Business Problem
+ ### Identifying the Right Product Line
  Overview: As an ambitious entrepreneur, I aim to open a store selling phones and electronics.
  Challenge: Deciding between stocking Apple or Samsung products.
  Solution Approach: Analyze Twitter sentiments to understand customer experiences with both brands.
@@ -8,9 +8,8 @@
  Positive Sentiment: High preference for the product.
  Negative Sentiment: Poor experiences with the product.
  Neutral Sentiment: No strong feelings expressed.
-2. Business Objectives
- •Key Objectives of the Analysis
- •Content:
+## 2. Business Objectives
+ ### Key Objectives of the Analysis
  • Develop an accurate emotion classification model.
  • Implement data cleaning, tokenization, stopword removal, and TF-IDF vectorization for effective text 
 preprocessing.
@@ -18,9 +17,8 @@ preprocessing.
  • Address class imbalance issues to improve model generalization.
  • Detect customer sentiment trends in tweets mentioning products, services, or brands.
  • Save and deploy the trained model for real-world applications.
-3. Data Understanding
- Understanding the Data
- •Content:
+## 3. Data Understanding
+ ### Understanding the Data
  • Data Collection: Gather tweets mentioning "Apple" and "Samsung."
  • Data Exploration:
  • Read and view the data.
@@ -30,9 +28,8 @@ preprocessing.
  • **User **: Twitter handle of the user.
  • Tweet Text: Content of the tweet.
  • Sentiment: Classified as positive, negative, or neutral.
-4. Data Preparation and Cleaning
- Heading: Data Preparation and Cleaning
- •Content:
+## 4. Data Preparation and Cleaning
+ ### Data Preparation and Cleaning
  • Data Cleaning Steps:
  • Text Normalization: Convert text to lowercase.
  • Removing Punctuation: Eliminate special characters and punctuation.
@@ -41,9 +38,8 @@ preprocessing.
  • TF-IDF Vectorization: Transform text data into numerical format to represent the importance of 
 words in the context of the dataset.
  • Outcome: Cleaned and structured data ready for model training.
-5. Model Training and Evaluation
- •Heading: Model Training and Evaluation
- •Content:
+## 5. Model Training and Evaluation
+  ### Model Training and Evaluation
  • Model Selection:
  • Naive Bayes Model: A simple yet effective model for text classification.
  • Ensemble Model: Combination of Naive Bayes and Random Forest to improve accuracy.
@@ -54,9 +50,8 @@ words in the context of the dataset.
  • Accuracy: Overall correctness of the model.
  • Confusion Matrix: Visual representation of true vs. predicted classifications.
  • Classification Report: Precision, recall, and F1-score for each class.
-6. Conclusions and Recommendations
- • Heading: Key Conclusions
- • Content:
+## 6. Conclusions and Recommendations
+ ### Key Conclusions
  • Effective Classification of Emotions:
  • Emotions in tweets were successfully categorized using the Naive Bayes model and the ensemble model.
  • The ensemble model outperformed the Naive Bayes model alone, demonstrating the benefits of combining models.
@@ -69,7 +64,7 @@ words in the context of the dataset.
  • The confusion matrix revealed some misclassifications, indicating areas for improvement.
  • Ensemble models improved robustness by leveraging the strengths of both Random Forest and Naive Bayes, reducing the 
 shortcomings of individual classifiers.
-Recommendations
+### Recommendations
  • Heading: Strategic Recommendations for Improvement
  • Content:
  • Boost the Quality of the Data:
